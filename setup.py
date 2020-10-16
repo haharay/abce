@@ -11,8 +11,8 @@ cmdclass = {}
 
 install_requires = ['flexx >= 0.4.1',
                     'future',
-                    'normality == 0.6.1',
-                    'dataset == 0.8']
+                    'normality >= 0.6.1',
+                    'dataset >= 0.8']
 
 
 readthedocs = os.environ.get('READTHEDOCS') == 'True'
@@ -22,8 +22,8 @@ if not readthedocs:
         install_requires += ['numpy >= 1.10.2p']
         if ('APPVEYOR' not in os.environ) or ('TRAVIS' not in os.environ):
             install_requires += ['pandas >= 0.17.1',
-                                 'bokeh == 0.12.16',
-                                 'tornado == 4.3']
+                                 'bokeh >= 0.12.16',
+                                 'tornado >= 4.3']
 
 
 version = '0.9.7b0'
