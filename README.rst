@@ -70,7 +70,7 @@ abcEconomics runs on macOS, Windows, and Linux. abcEconomics runs 10x faster on 
 Install with::
 
     pip3 install abcEconomics
-
+    python3 -m pip install git+https://github.com/haharay/abce.git
 
 The documentation is here:
 
